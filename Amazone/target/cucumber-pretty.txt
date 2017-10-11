@@ -1,0 +1,33 @@
+@Amazone1
+Feature: Title of your feature
+  I want to use this template for my feature file
+
+  Scenario Outline: Title of your scenario       [90m# Amazone.feature:8[0m
+    [36mWhen [0m[36mclick on login button[0m
+    [36mThen [0m[36mlogin page get displayed[0m
+    [36mWhen [0m[36msubmitting "<loginid>" and "<password>"[0m
+    [36mThen [0m[36mmain page get displayed[0m
+    [36mAnd [0m[36mgo to department[0m
+    [36mWhen [0m[36mclick on Amazone video[0m
+    [36mThen [0m[36mopen video page[0m
+    [36mAnd [0m[36mcheck more outcomes[0m
+
+    Examples: 
+
+  Background:                   [90m# Amazone.feature:5[0m
+    [31mGiven [0m[31mgo to the amzone link[0m [90m# Amazone.go_to_the_amzone_link()[0m
+      [31mjava.lang.NullPointerException
+      	at StepDefinition.Amazone.go_to_the_amzone_link(Amazone.java:29)
+      	at ✽.Given go to the amzone link(Amazone.feature:6)
+      [0m
+
+  @Amazone1
+  Scenario Outline: Title of your scenario                 [90m# Amazone.feature:21[0m
+    [36mWhen [0m[36mclick on login button[0m                             [90m# Amazone.click_on_login_button()[0m
+    [36mThen [0m[36mlogin page get displayed[0m                          [90m# Amazone.login_page_get_displayed()[0m
+    [36mWhen [0m[36msubmitting "[0m[36m[1mprashant2015ccc@gmail.com[0m[36m" and "[0m[36m[1mpppp[0m[36m"[0m [90m# Amazone.submitting_and(String,String)[0m
+    [36mThen [0m[36mmain page get displayed[0m                           [90m# Amazone.main_page_get_displayed()[0m
+    [36mAnd [0m[36mgo to department[0m                                   [90m# Amazone.go_to_department()[0m
+    [36mWhen [0m[36mclick on Amazone video[0m                            [90m# Amazone.click_on_Amazone_video()[0m
+    [36mThen [0m[36mopen video page[0m                                   [90m# Amazone.open_video_page()[0m
+    [36mAnd [0m[36mcheck more outcomes[0m                                [90m# Amazone.check_more_outcomes()[0m

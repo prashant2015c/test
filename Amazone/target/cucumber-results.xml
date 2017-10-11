@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.553533">
+<testcase classname="Title of your feature" name="Title of your scenario" time="0.553533">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at StepDefinition.Amazone.go_to_the_amzone_link(Amazone.java:29)&#13;&#10;&#9;at ✽.Given go to the amzone link(Amazone.feature:6)&#13;&#10;"><![CDATA[Given go to the amzone link.................................................failed
+When click on login button..................................................skipped
+Then login page get displayed...............................................skipped
+When submitting "prashant2015ccc@gmail.com" and "pppp"......................skipped
+Then main page get displayed................................................skipped
+And go to department........................................................skipped
+When click on Amazone video.................................................skipped
+Then open video page........................................................skipped
+And check more outcomes.....................................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at StepDefinition.Amazone.go_to_the_amzone_link(Amazone.java:29)
+	at ✽.Given go to the amzone link(Amazone.feature:6)
+]]></failure>
+</testcase>
+</testsuite>

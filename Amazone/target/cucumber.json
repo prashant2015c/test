@@ -1,0 +1,158 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 553533300,
+              "error_message": "java.lang.NullPointerException\r\n\tat StepDefinition.Amazone.go_to_the_amzone_link(Amazone.java:29)\r\n\tat ✽.Given go to the amzone link(Amazone.feature:6)\r\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "go to the amzone link",
+            "match": {
+              "location": "Amazone.go_to_the_amzone_link()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "click on login button",
+            "match": {
+              "location": "Amazone.click_on_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "login page get displayed",
+            "match": {
+              "location": "Amazone.login_page_get_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "submitting \"prashant2015ccc@gmail.com\" and \"pppp\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "prashant2015ccc@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "pppp",
+                  "offset": 44
+                }
+              ],
+              "location": "Amazone.submitting_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "main page get displayed",
+            "match": {
+              "location": "Amazone.main_page_get_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "go to department",
+            "match": {
+              "location": "Amazone.go_to_department()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "click on Amazone video",
+            "match": {
+              "location": "Amazone.click_on_Amazone_video()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "open video page",
+            "match": {
+              "location": "Amazone.open_video_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "check more outcomes",
+            "match": {
+              "location": "Amazone.check_more_outcomes()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Amazone1"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "Amazone.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Amazone1"
+      }
+    ]
+  }
+]
