@@ -14,12 +14,22 @@ public class Sqlse {
 	
 	public Connection connectDB() throws IOException, SQLException, ClassNotFoundException{
 		 
+		
+		try {
+			
+	    	   Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+	    	   
+		} catch (Exception e) {
+			// TODO: handle exception
+		}  
+		
+		
 		// Create a connection with swat database
-		Class.forName("com.mysql.jdbc.Driver");
+		//Class.forName("com.mysql.jdbc.Driver");
 		
 		//String dbURL =getPropertyValue("Swat_Dev_connection");
 		
-		String dbURL = "jdbc:mysql://localhost:3306/database";
+		String dbURL= "jdbc:sqlserver://localhost:1433;databaseName=pr;";
 				Connection con=DriverManager.getConnection(dbURL,"sa","123");
     
         return con;
@@ -36,7 +46,7 @@ public class Sqlse {
 
 		    // Now execute the query
 		    //System.out.println("query to be executed = "+ SelectQuery+"'"+ item+"'");
-	        ResultSet rs = smt.executeQuery("select* from pr");
+	        ResultSet rs = smt.executeQuery("select * from pr");
 		    //ResultSet rs= smt.executeQuery(SelectQuery+"'"+item+"'");
 		    
 		    while (rs.next()) {

@@ -6,6 +6,9 @@ import java.util.Map;
 import java.util.Vector;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.BasicConfigurator;
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -19,25 +22,33 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import MagFM.log4;
+
 
 public class LandingPage 
 {
 	//Landingpage landing;
+	
 			WebDriver driver;
 			AppTest app = new AppTest();
 			
+			//BasicConfigurator.configure();
+			
+			//log4 lo = new log4();
+			
+					
 			
 	@Given("^Go to the link$")
 	public void go_to_the_link() {
 	    // Write code here that turns the phrase above into concrete actions
-
+    
 		//System.setProperty("webdriver.chrome.driver", "C:\\eclipse\\chromedriver_win32\\chromedriver.exe");
 		System.setProperty("webdriver.chrome.driver", "./src/main/resource/Driver/chromedriver.exe");
 		
 		 driver = new ChromeDriver();
      	
 		driver.get("https://staging.magsformiles.com/20002996");
-		
+		log.info("driver open");
 		//https://staging.magsformiles.com/20003001/
 		//https://staging.magsformiles.com/20002746/
 		
