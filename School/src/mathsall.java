@@ -9,11 +9,11 @@ public class mathsall {
 		mathsall ma = new mathsall();
   int z=ma.add1();
   int z1=ma.sub();
-  int z3=ma.mathsall();
+  //int z3=ma.mathsall();
   
   System.out.println("add" + z);
   System.out.println("sub" + z1);
-  System.out.println("multi" + z3);
+  //System.out.println("multi" + z3);
   
 
 	}
@@ -31,8 +31,14 @@ public class mathsall {
 		
 	}
 
-	int mathsall()
+	/*int mathsall()
 	{
 		return(x*y);
+
+	}*/
+	
+	public void test()
+	{
+		System.out.println("Only test");
 	}
 }
