@@ -8,9 +8,11 @@ import org.openqa.selenium.support.PageFactory;
 
 public class log4 {
  
+	WebDriver driver;
+	
 	public log4(WebDriver driver)
-	{
-		//this.driver = driver;
+	{ 
+		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
 	
@@ -21,10 +23,9 @@ public class log4 {
 	
 	public void loggi() {
 		
-		BasicConfigurator.configure();
-		PropertyConfigurator.configure("Log4j.properties");
 		
-		Logger log = Logger.getLogger("LandingPage");
+		
+		
 	}
 	
 	/*public static void main(String[] args) {

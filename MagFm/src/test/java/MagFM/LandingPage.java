@@ -31,7 +31,7 @@ public class LandingPage
 	
 			WebDriver driver;
 			AppTest app = new AppTest();
-			
+			Logger log = Logger.getLogger("LandingPage");
 			//BasicConfigurator.configure();
 			
 			//log4 lo = new log4();
@@ -40,6 +40,9 @@ public class LandingPage
 			
 	@Given("^Go to the link$")
 	public void go_to_the_link() {
+		
+		BasicConfigurator.configure();
+		PropertyConfigurator.configure("Log4j.properties");
 	    // Write code here that turns the phrase above into concrete actions
     
 		//System.setProperty("webdriver.chrome.driver", "C:\\eclipse\\chromedriver_win32\\chromedriver.exe");
