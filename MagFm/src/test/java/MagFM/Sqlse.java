@@ -12,7 +12,7 @@ public class Sqlse {
 
 	
 	
-	public Connection connectDB() throws IOException, SQLException, ClassNotFoundException{
+	/*public Connection connectDB() throws IOException, SQLException, ClassNotFoundException{
 		 
 		
 		try {
@@ -63,9 +63,9 @@ public class Sqlse {
 	        
 			return null;
 			
-	 }
+	 }*/
 	
-	/*public static void main(String[] args) throws SQLException, Throwable {
+	public static void main(String[] args) throws SQLException, Throwable {
 		// TODO Auto-generated method stub
 
 		//Sqlse sq = new Sqlse();
@@ -117,6 +117,6 @@ public class Sqlse {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-	}*/
+	}
 
 }
