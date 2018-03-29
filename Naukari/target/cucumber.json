@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "",
+        "description": "",
+        "id": "naukari-site-testing;;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 25360714261,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Go to the site \"chrome\",\"naukari_site\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 16
+                },
+                {
+                  "val": "naukari_site",
+                  "offset": 25
+                }
+              ],
+              "location": "Stepdefinition.go_to_the_site(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 38722,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Popup comes handle it",
+            "match": {
+              "location": "Stepdefinition.popup_comes_handle_it()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 80243,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "close it",
+            "match": {
+              "location": "Stepdefinition.close_it()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Naukari site testing",
+    "description": "",
+    "id": "naukari-site-testing",
+    "keyword": "Feature",
+    "uri": "Naukari.feature"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "source": "^Popup comes handle it$",
+    "steps": [
+      {
+        "name": "Popup comes handle it",
+        "aggregatedDurations": {
+          "average": 0.000038722,
+          "median": 0.000038722
+        },
+        "durations": [
+          {
+            "duration": 0.000038722,
+            "location": "Naukari.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Go to the site \"(.*?)\",\"(.*?)\"$",
+    "steps": [
+      {
+        "name": "Go to the site \"chrome\",\"naukari_site\"",
+        "aggregatedDurations": {
+          "average": 25.360714261,
+          "median": 25.360714261
+        },
+        "durations": [
+          {
+            "duration": 25.360714261,
+            "location": "Naukari.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^close it$",
+    "steps": [
+      {
+        "name": "close it",
+        "aggregatedDurations": {
+          "average": 0.000080243,
+          "median": 0.000080243
+        },
+        "durations": [
+          {
+            "duration": 0.000080243,
+            "location": "Naukari.feature:6"
+          }
+        ]
+      }
+    ]
+  }
+]

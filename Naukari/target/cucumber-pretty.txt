@@ -1,0 +1,13 @@
+Feature: Naukari site testing
+
+  Scenario Outline:                              [90m# Naukari.feature:3[0m
+    [36mGiven [0m[36mGo to the site "<Driver>","<Homepage>"[0m
+    [36mWhen [0m[36mPopup comes handle it[0m
+    [36mThen [0m[36mclose it[0m
+
+    Examples: 
+
+  Scenario Outline:                              [90m# Naukari.feature:11[0m
+    [32mGiven [0m[32mGo to the site "[0m[32m[1mchrome[0m[32m","[0m[32m[1mnaukari_site[0m[32m"[0m [90m# Stepdefinition.go_to_the_site(String,String)[0m
+    [32mWhen [0m[32mPopup comes handle it[0m                   [90m# Stepdefinition.popup_comes_handle_it()[0m
+    [32mThen [0m[32mclose it[0m                                [90m# Stepdefinition.close_it()[0m

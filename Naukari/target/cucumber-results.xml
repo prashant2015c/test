@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="25.360833">
+<testcase classname="Naukari site testing" name="_2" time="25.360833">
+<system-out><![CDATA[Given Go to the site "chrome","naukari_site"................................passed
+When Popup comes handle it..................................................passed
+Then close it...............................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
